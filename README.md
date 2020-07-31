@@ -5,6 +5,10 @@ Steps taken to refactor the code:
 - moved the head title tag above the css link for easier browser readibility
 - changed div class of "header" to the semantic element <header>
 - changed the div in the header element for the navigation to <nav>
+- changed the title from website to "Horiseon Search Engine Optimization"
+- added a meta tag with name and description to help browsers know what the site is about
+- changed the div class of "footer" to the semantic element <footer>
+
 
 
 <!-- In style.css: -->
@@ -12,6 +16,7 @@ Steps taken to refactor the code:
 
 - added the header nav declaration to the navigation anchor tags so if other tags are added later they can be styled differently if needed
 - changed the header div css to header nav
+- updated the .footer styles to reflect the change to the semantic <footer> styles
 
 <!-- customer asks and acceptance criteria -->
 User Story: 
